@@ -6,6 +6,6 @@ export class Counter extends Component {
   }
 
   render() {
-    return <div>Counter</div>;
+    return <div>Counter:0</div>;
   }
 }
