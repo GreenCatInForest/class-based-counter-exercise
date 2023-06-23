@@ -20,7 +20,7 @@ export class Counter extends Component {
 
   render() {
     return (
-      <div className="border m-3 p-4 rounded">
+      <div className="border border-2 border-secondary-subtle m-3 p-4 rounded">
         <div className="m-3 text-center">Counter: {this.state.count}</div>
         <div className="m-1 d-grid gap-2 col-6 mx-auto">
           <button className="btn btn-danger" onClick={this.handleDecrement}>
